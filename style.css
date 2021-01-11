@@ -1,0 +1,122 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+
+ .navbar-brand{
+  font-size: 30px;
+  color: black;
+  padding-left: 20px;
+  font-weight:600;
+   }
+
+  .navbar-brand:hover {
+    color:#06628A;
+
+  }
+
+  .nav-link:hover{
+    color:#06628A;
+  }
+   
+/*position of the nav links*/
+   .nav-link {
+  margin-left:1em;
+  color: black;
+ }
+
+ .jsrb{
+  justify-content:start;
+  text-align: left;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 60%;
+  transform: translateY(-80%);
+  left: -8%;
+}
+.carousel-caption h1{
+  font-size: 70px;
+  font-weight: 400;
+
+}
+ 
+.carousel-caption p{
+   font-weight: 600;
+
+}
+
+.btn0{
+  background-color: blue;
+  height: 40px;
+  width: 150px;
+  color: white;
+  outline: none;
+  border:none;
+}
+
+.btn0:hover{
+  background-color: cyan;
+  color:black;
+}
+
+.btn1{
+  background-color: white;
+  height: 40px;
+  width: 150px;
+  color: black;
+  outline: none;
+  border:none;
+}
+
+.btn1:hover{
+  background-color: orange;
+  color:white;
+}
+
+
+.card-title{
+  color: black;
+  text-align: center;
+}
+.card-link{
+  text-decoration: none;
+  text-align: center;
+  color:green;
+}
+.card-link:hover{
+  color:blue;
+}
+
+.btn-outline-primary{
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color:black;
+  padding: 5px;
+  margin:20px;
+
+}
+
+
+.fbg{
+  background-color: #37373D;
+  text-align: left;
+  color: white;
+  max-width: 100%;
+  padding:10px;
+}
+.fbg h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
